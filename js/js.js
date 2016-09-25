@@ -16,7 +16,7 @@ $.jribbble.users('intertarik').shots({per_page: 12}).then(function(shots) {
 
 $(function(){
       $(".greating").typed({
-        strings: ["Hello.", "Salam.", "Ni Hao.", "Salut.", "مرحبا"],
+        strings: ["Hello.", "Salam.", "Ni Hao.", "Salut.", "مرحبا", "Hola"],
         typeSpeed: 100,
         loop:true,
         shuffle:true
