@@ -22,3 +22,10 @@ $(function(){
         shuffle:true
       });
   });
+$(document).ready(function(){
+  $('.block-right').addClass('hide');
+  var animationEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
+  $(".block-left").addClass('animated slideInLeft').one(animationEnd, function() {
+      $('.block-right').addClass('animated fadeIn').removeClass('hide');
+  });
+})
