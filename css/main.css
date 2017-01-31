@@ -1,0 +1,404 @@
+
+table.container{background: none}
+.navbar td.menu-item a,
+.navbar th.menu-item a {
+    color: #AEAEAE;
+    font-size: 14px;
+    }
+
+.header{
+    background-image: url('../images/headerBg.jpg');
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+.navbar{
+    background: #fff;
+}
+
+.content h1{
+    font-size: 42px;
+    color: #191919;
+}
+
+.content p{
+    font-size: 14px;
+    color:#767676;
+    line-height: 24px;
+}
+.about{
+    background: #fff;
+}
+.about h4{
+    font-size: 14px;
+    font-weight: 700;
+    color: #767676;
+}
+.about h1{
+    font-size: 28px;
+    color: #00a699
+}
+.about p{
+    font-size: 16px;
+    color: #767676;
+    line-height: 27px;
+}
+.cta1{
+    background-image: url('../images/cta1.jpg');
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+.cta1 h4{
+    font-size: 14px;
+    font-weight: 700;
+    color: #767676;
+    text-transform: uppercase;
+}
+.cta1 h1{
+    font-size: 36px;
+    color: #00a699;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.cta1 p{
+    font-size: 16px;
+    color: #484848;
+    line-height: 27px;
+}
+.hr{
+    width: 30px;
+    height: 3px;
+    background-color: #00a699;
+}
+
+.Larghr{
+    height: 1px;
+    background-color: #eeeeee;
+    
+}
+
+.headings{}
+.headings .verHr{
+    width: 3px;
+    background-color: #eeeeee;
+}
+.headings .verSpace{
+    width: 10px;
+}
+.headings h4{
+    font-size: 16px;
+    color: #767676;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.headings h3{
+    font-size: 28px;
+    color:#62c4b0;
+    margin-bottom: 0;
+}
+
+.testimonials{
+    background-color: #fff;
+}
+
+.testiContent p{
+    font-size: 18px;
+    color: #888888;
+    font-weight: 400i;
+    line-height: 35px;
+    width: 400px;
+}
+.testiContent h4{
+    font-size: 14px;
+    text-transform: uppercase;
+    color:#484848;
+}
+.testiContent h4 span{
+    color:#62c4b0;
+}
+
+.cta2 .left{
+    background-image: url('../images/cta2.png');
+    background-repeat: no-repeat;
+    background-color: #fff;
+    background-size: cover;
+}
+.cta2 .right{
+    background-color: #fff;
+}
+
+.cta2 h4{
+    font-size: 16px;
+    color: #767676;
+    font-weight: 300;
+}
+.cta2 h3{
+    font-size: 22px;
+    color: #62c4b0;
+}
+.cta2 P{
+    font-size: 14px;
+    color: #888888;
+    line-height: 25px;
+}
+.cta2 a{
+    font-size: 14px;
+    color: #3781cb;
+    font-weight: 300;
+}
+
+.portfolio{
+    background-color: #fff;
+}
+.portfolio p{
+    font-size: 14px;
+    color: #767676;
+}
+.portfolio-item h3{
+    font-size: 22px;
+    color: #767676;
+    margin-bottom: 5px;
+}
+.portfolio-item h4{
+    font-size: 14px;
+    color: #62c4b0;
+    
+}
+.portfolio-item p{
+    font-size: 14px;
+    color: #b5b1b1;
+    line-height: 24px;
+}
+
+.video{
+    background: #fff
+}
+.video h3{
+    color: #191919;
+    font-size: 22px;
+    font-weight: 400;
+}
+.video h3 span{
+    color: #62c4b0;
+}
+.video p{
+    color: #767676;
+    font-size: 14px;
+    width: 400px
+}
+
+
+
+.pricing{
+background: #fff;
+}
+.pricing p{
+    font-size: 14px;
+    color: #767676;
+}
+
+.pricTable h3{
+    font-size: 18px;
+    font-weight: 400;
+    color: #767676;
+    text-transform: uppercase;
+    margin:0px;
+}
+
+.pricTable h1{
+    font-size: 48px;
+    font-weight: 400;
+    color: #62c4b0;
+    margin: 0;
+}
+.pricTable h1 span{
+    font-size: 18px;
+    font-weight: 400;
+    color: #62c4b0;
+    margin: 0;
+}
+.pricTable p i{
+    font-size: 12px;
+    font-weight: 300;
+    color: #62c4b0;
+    margin-right: 10px;
+}
+.pricTable p{
+    font-size: 14px;
+    color: #767676 ;
+}
+
+.pricing a,{
+    font-size: 14px;
+    color: #3781cb !important;
+}
+.pricing a span{
+    margin-right:10px; 
+}
+
+.cta3{
+    background-color: #fff;
+    background-image: url('../images/cta3.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.cta3 h1{
+    font-size: 28px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.cta3 p{
+    font-size: 14px;
+    font-weight: 500;
+    color: #ffffff;
+    line-height: 27px;
+    width: 300px;
+}
+
+.team{
+background-color: #fff;
+}
+
+
+
+.teamMember h3{
+    font-size: 22px;
+    color: #767676;
+    margin-bottom: 5px;
+}
+.teamMember h4{
+    font-size: 14px;
+    color: #62c4b0;
+    
+}
+.teamMember p{
+    font-size: 14px;
+    color: #b5b1b1;
+    line-height: 24px;
+}
+
+.teamMember a{
+    font-size: 16px;
+    color: #3781cb;
+    line-height: 24px
+}
+
+.teamMember a i{
+        margin-right: 10px
+}
+
+.cta4{
+    background-color: #62c4b0;
+}
+
+.cta4 h1{
+    font-size: 28px;
+    color: #fff
+}
+
+.blog{
+    background-color: #fff;
+}
+
+.blogPost {
+    background-color: #fff;
+}
+
+.blogPost h3{
+    font-size:22px ;
+    color: #62c4b0;
+    
+}
+
+.blogPost p{
+    font-size:14px;
+    color: #767676 ;
+    line-height:24px; 
+}
+
+.blogPost .hr{
+    background-color: #e6e6e6;
+}
+.blogPost a{
+    font-size: 14px;
+    color: #3781cb;
+}
+.blogPost a span{
+    margin-right: 10px;
+}
+
+.facts{
+    background-color: #f9f9f9;
+}
+
+.fact h3{
+    font-size:28px ;
+    color:#62c4b0 ;
+}
+
+.fact h4{
+    font-size:18px ;
+    color:#767676 ;
+}
+
+
+.cta5{
+    background-color: #fff;
+    background-image: url('../images/cta5.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.cta5Content{
+    background-color: #fff;
+}
+
+.cta5Content h1{
+    font-size: 32px;
+    font-weight: 400;
+    color: #62c4b0;
+    text-transform: uppercase
+}
+.cta5Content P{
+    font-size: 16px;
+    font-weight: 400;
+    color: #b5b1b1;
+    line-height: 27px;
+    width: 400px;
+}
+
+
+.footer{
+    background-color: #fff;
+}
+
+.footer p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #888888;
+    line-height: 24px;
+    margin: 0;
+}
+.footer p span{
+    color: #333333;
+}
+.footer a i{
+    color: #878b99;
+    margin-right: 10px;;
+}
+
+.copy{
+    background-color: #333333;
+}
+
+.copy p{
+    font-size: 14px;
+    color: #AEAEAE;
+    font-weight: 400;
+    margin: 0;
+}
+.copy p a{
+    color: #00a699;
+}
