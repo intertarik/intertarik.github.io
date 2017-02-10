@@ -1,0 +1,430 @@
+/* ---- General ---- */  /* 	@tab general */   
+.hr{
+    width: 30px;
+    height: 3px;
+    /*@editable*/ background-color: #00a699;
+}
+
+.Larghr{
+    height: 1px;
+    /*@editable*/ background-color: #eeeeee;
+    
+}
+
+.headings{
+    /*@editable*/ background-color: #fff;
+}
+.headings .verHr{
+    width: 3px;
+    /*@editable*/ background-color: #eeeeee;
+}
+.headings .verSpace{
+    width: 10px;
+}
+.headings h4{
+    /*@editable*/ font-size: 16px;
+    /*@editable*/ color: #767676;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.headings h3{
+    /*@editable*/ font-size: 28px;
+    /*@editable*/ color:#62c4b0;
+    margin-bottom: 0;
+}
+
+/* ---- menu ---- */  /* 	@tab Menu */ 
+table.container{/*@editable*/ background: none}
+
+table.menu td.menu-item a,
+table.menu th.menu-item a {
+    /*@editable*/ color: #AEAEAE;
+    /*@editable*/ font-size: 14px;
+}
+.navbar{
+    /*@editable*/ background: #fff;
+}
+
+/* ---- header ---- */  /* 	@tab Header */ 
+.header{
+    /*@editable*/ background-image: url('../images/headerBg.jpg');
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+.content h1{
+    /*@editable*/ font-size: 42px;
+    /*@editable*/ color: #191919;
+}
+
+.content p{
+    /*@editable*/ font-size: 14px;
+    /*@editable*/ color:#767676;
+    line-height: 24px;
+}
+
+/* ---- about ---- */  /* 	@tab About */ 
+
+.about{
+    /*@editable*/ background: #fff;
+}
+.about h4{
+    /*@editable*/ font-size: 14px;
+    font-weight: 700;
+    /*@editable*/ color: #767676;
+}
+.about h1{
+    /*@editable*/ font-size: 28px;
+    /*@editable*/ color: #00a699
+}
+.about p{
+    /*@editable*/ font-size: 16px;
+    /*@editable*/ color: #767676;
+    line-height: 27px;
+}
+
+/* ---- cta1 ---- */  /* 	@tab CTA1 */ 
+.cta1{
+    /*@editable*/ background-image: url('../images/cta1.jpg');
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+.cta1 h4{
+    /*@editable*/ font-size: 14px;
+    font-weight: 700;
+    /*@editable*/ color: #767676;
+    text-transform: uppercase;
+}
+.cta1 h1{
+    /*@editable*/ font-size: 36px;
+    /*@editable*/ color: #00a699;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.cta1 p{
+    /*@editable*/ font-size: 16px;
+    /*@editable*/ color: #484848;
+    line-height: 27px;
+}
+
+
+
+/* ---- testimonials ---- */  /* 	@tab testimonials */ 
+.testimonials{
+    /*@editable*/ background-color: #fff;
+}
+
+.testiContent p{
+    /*@editable*/ font-size: 18px;
+    /*@editable*/ color: #888888;
+    font-weight: 400i;
+    line-height: 35px;
+    width: 400px;
+}
+.testiContent h4{
+    /*@editable*/ font-size: 14px;
+    text-transform: uppercase;
+    /*@editable*/ color:#484848;
+}
+.testiContent h4 span{
+    /*@editable*/ color:#62c4b0;
+}
+
+/* ---- cta2 ---- */  /* 	@tab Cta2 */ 
+
+.cta2 .left{
+    /*@editable*/ background-image: url('../images/cta2.png');
+    background-repeat: no-repeat;
+    /*@editable*/ background-color: #fff;
+    background-size: cover;
+}
+.cta2 .right{
+    /*@editable*/ background-color: #fff;
+}
+
+.cta2 h4{
+    /*@editable*/ font-size: 16px;
+    /*@editable*/ color: #767676;
+    font-weight: 300;
+}
+.cta2 h3{
+    /*@editable*/ font-size: 22px;
+    /*@editable*/ color: #62c4b0;
+}
+.cta2 P{
+    /*@editable*/ font-size: 14px;
+    /*@editable*/ color: #888888;
+    line-height: 25px;
+}
+.cta2 a{
+    /*@editable*/ font-size: 14px;
+    /*@editable*/ color: #3781cb;
+    font-weight: 300;
+}
+
+/* ---- portfolio ---- */  /* 	@tab Portfolio */ 
+.portfolio{
+    /*@editable*/ background-color: #fff;
+}
+.portfolio p{
+    /*@editable*/ font-size: 14px;
+    /*@editable*/ color: #767676;
+}
+.portfolio-item h3{
+    /*@editable*/ font-size: 22px;
+    /*@editable*/ color: #767676;
+    margin-bottom: 5px;
+}
+.portfolio-item h4{
+    /*@editable*/ font-size: 14px;
+    /*@editable*/ color: #62c4b0;
+    
+}
+.portfolio-item p{
+    /*@editable*/ font-size: 14px;
+    /*@editable*/ color: #b5b1b1;
+    line-height: 24px;
+}
+
+/* ---- video ---- */  /* 	@tab Video */ 
+.video{
+    /*@editable*/ background: #fff
+}
+.video h3{
+    /*@editable*/ color: #191919;
+    /*@editable*/ font-size: 22px;
+    font-weight: 400;
+}
+.video h3 span{
+    /*@editable*/ color: #62c4b0;
+}
+.video p{
+    /*@editable*/ color: #767676;
+    /*@editable*/ font-size: 14px;
+    width: 400px
+}
+
+
+/* ---- pricing ---- */  /* 	@tab Princing */ 
+.pricing{
+/*@editable*/ background: #fff;
+}
+.pricing p{
+    /*@editable*/ font-size: 14px;
+    /*@editable*/ color: #767676;
+}
+
+.pricTable h3{
+    /*@editable*/ font-size: 18px;
+    font-weight: 400;
+    /*@editable*/ color: #767676;
+    text-transform: uppercase;
+    margin:0px;
+}
+
+.pricTable h1{
+    /*@editable*/ font-size: 48px;
+    font-weight: 400;
+    /*@editable*/ color: #62c4b0;
+    margin: 0;
+}
+.pricTable h1 span{
+    /*@editable*/ font-size: 18px;
+    font-weight: 400;
+    /*@editable*/ color: #62c4b0;
+    margin: 0;
+}
+.pricTable p i{
+    /*@editable*/ font-size: 12px;
+    font-weight: 300;
+    /*@editable*/ color: #62c4b0;
+    margin-right: 10px;
+}
+.pricTable p{
+    /*@editable*/ font-size: 14px;
+    /*@editable*/ color: #767676 ;
+}
+
+.pricing a,{
+    /*@editable*/ font-size: 14px;
+    /*@editable*/ color: #3781cb !important;
+}
+.pricing a span{
+    margin-right:10px; 
+}
+
+/* ---- cta3 ---- */  /* 	CTA3 */ 
+.cta3{
+    /*@editable*/ background-color: #fff;
+    /*@editable*/ background-image: url('../images/cta3.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.cta3 h1{
+    /*@editable*/ font-size: 28px;
+    font-weight: 700;
+    text-transform: uppercase;
+    /*@editable*/ color: #fff;
+}
+
+.cta3 p{
+    /*@editable*/ font-size: 14px;
+    font-weight: 500;
+    /*@editable*/ color: #ffffff;
+    line-height: 27px;
+    width: 300px;
+}
+
+/* ---- team ---- */  /* 	@tab Team */ 
+
+.team{
+/*@editable*/ background-color: #fff;
+}
+
+.teamMember h3{
+    /*@editable*/ font-size: 22px;
+    /*@editable*/ color: #767676;
+    margin-bottom: 5px;
+}
+.teamMember h4{
+    /*@editable*/ font-size: 14px;
+    /*@editable*/ color: #62c4b0;
+    
+}
+.teamMember p{
+    /*@editable*/ font-size: 14px;
+    /*@editable*/ color: #b5b1b1;
+    line-height: 24px;
+}
+
+.teamMember a{
+    /*@editable*/ font-size: 16px;
+    /*@editable*/ color: #3781cb;
+    line-height: 24px
+}
+
+.teamMember a i{
+        margin-right: 10px
+}
+/* ---- cta4 ---- */  /* 	@tab CTA4 */ 
+
+.cta4{
+    /*@editable*/ background-color: #62c4b0;
+}
+
+.cta4 h1{
+    /*@editable*/ font-size: 28px;
+    /*@editable*/ color: #fff
+}
+
+/* ---- blog ---- */  /* 	@tab Blog */ 
+
+.blog{
+    /*@editable*/ background-color: #fff;
+}
+
+.blogPost {
+    /*@editable*/ background-color: #fff;
+}
+
+.blogPost h3{
+    /*@editable*/ font-size:22px ;
+    /*@editable*/ color: #62c4b0;
+    
+}
+
+.blogPost p{
+    /*@editable*/ font-size:14px;
+    /*@editable*/ color: #767676 ;
+    line-height:24px; 
+}
+
+.blogPost .hr{
+    /*@editable*/ background-color: #e6e6e6;
+}
+.blogPost a{
+    /*@editable*/ font-size: 14px;
+    /*@editable*/ color: #3781cb;
+}
+.blogPost a span{
+    margin-right: 10px;
+}
+
+/* ---- facts ---- */  /* 	@tab facts */ 
+
+.facts{
+    /*@editable*/ background-color: #f9f9f9;
+}
+
+.fact h3{
+    /*@editable*/ font-size:28px ;
+    /*@editable*/ color:#62c4b0 ;
+}
+
+.fact h4{
+    /*@editable*/ font-size:18px ;
+    /*@editable*/ color:#767676 ;
+}
+
+/* ---- cta5 ---- */  /* 	@tab CTA5 */ 
+.cta5{
+    /*@editable*/ background-color: #fff;
+    /*@editable*/ background-image: url('../images/cta5.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.cta5Content{
+    /*@editable*/ background-color: #fff;
+}
+
+.cta5Content h1{
+    /*@editable*/ font-size: 32px;
+    font-weight: 400;
+    /*@editable*/ color: #62c4b0;
+    text-transform: uppercase
+}
+.cta5Content P{
+    /*@editable*/ font-size: 16px;
+    font-weight: 400;
+    /*@editable*/ color: #b5b1b1;
+    line-height: 27px;
+    width: 400px;
+}
+
+/* ---- footer ---- */  /* 	@tab Footer */ 
+.footer{
+    /*@editable*/ background-color: #fff;
+}
+
+.footer p{
+    /*@editable*/ font-size: 14px;
+    font-weight: 400;
+    /*@editable*/ color: #888888;
+    line-height: 24px;
+    margin: 0;
+}
+.footer p span{
+    /*@editable*/ color: #333333;
+}
+.footer a i{
+    /*@editable*/ color: #878b99;
+    margin-right: 10px;;
+}
+
+
+/* ---- copy ---- */  /* 	@tab Copy */ 
+.copy{
+    /*@editable*/ background-color: #333333;
+}
+
+.copy p{
+    /*@editable*/ font-size: 14px;
+    /*@editable*/ color: #AEAEAE;
+    font-weight: 400;
+    margin: 0;
+}
+.copy p a{
+    /*@editable*/ color: #00a699;
+}
