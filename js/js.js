@@ -21,7 +21,7 @@ $(function(){
         loop:true,
         shuffle:true
       });
-  });
+});
 $(document).ready(function(){
   $('.block-right').addClass('hide');
   var animationEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
