@@ -10,7 +10,7 @@ $.ajax({
     if (data.length > 0) {
       $.each(data.reverse(), function (i, val) {
         $('#shots').prepend(
-          '<a class="shot" target="_blank" href="' + val.html_url + '" title="' + val.title + '"><div class="title">' + val.title + '</div><img src="' + val.images.hidpi + '"/></a>'
+          '<a class="shot" target="_blank" href="' + val.html_url + '" title="' + val.title + '"><img src="' + val.images.hidpi + '"/></a>'
         )
       })
     }
@@ -19,6 +19,8 @@ $.ajax({
     }
   }
 });
+
+//<div class="title">' + val.title + '</div>
 
 
 // NOTE: Don't use this token, replace it with your own client access token.
