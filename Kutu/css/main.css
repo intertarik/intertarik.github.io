@@ -12,10 +12,10 @@ p{
 
 
 #hero{
-    background-image: url('../images/hero_bg.png');
-    background-repeat: no-repeat;
+    background-image: url('../images/memphis-colorful.png');
+    /*background-repeat: no-repeat;
     background-size: cover;
-    background-position: center center;
+    background-position: center center;*/
 
     padding: 100px 0;
 }
@@ -121,27 +121,28 @@ background-color: #F8F8F8;
 /* Footer */
 #footer{
     padding: 100px 0;
-    background-image: url('../images/hero_bg.png');
-    background-repeat: no-repeat;
+    background-image: url('../images/memphis-colorful.png');
+    /*background-repeat: no-repeat;
     background-size: cover;
-    background-position: center center;
+    background-position: center center;*/
     text-align: center;
 }
 
 .footerContent{
+    display: inline-block;
 
 color: #1D3557;
 text-transform: uppercase;
 font-weight: 700;
 }
 .footerContent p{
-    color: #ffffff;
+    color: #1D3557;
 }
 .footerContent i{
     color: #FF6363;
 }
 .footerContent a{
-    color: #ffffff;
+    color: #1D3557;
 }
 .footerContent a:hover{
     color: #FF6363;
