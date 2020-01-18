@@ -1,0 +1,586 @@
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* Remove default padding */
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* Remove list styles on ul, ol elements with a class attribute */
+ul[class],
+ol[class] {
+  list-style: none;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Natural flow and rhythm in articles by default */
+article > * + * {
+  margin-top: 1em;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+body {
+  height: 100vh;
+  background-color: #FFF;
+  margin: 0;
+}
+
+h1 {
+  font-family: 'lora', serif;
+  font-size: 48px;
+  line-height: 64px;
+  font-weight: 400;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+h3 {
+  color: #292929;
+  text-decoration: none;
+  font-family: 'karla', sans-serif;
+  font-size: 18px;
+  line-height: 100%;
+  font-weight: 700;
+  font-style: normal;
+}
+
+p {
+  font-family: 'karla', sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  font-style: normal;
+  margin-bottom: 40px;
+}
+
+button {
+  display: inline-block;
+  background: #000;
+  padding: 20px 40px;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+  cursor: pointer;
+  color: #FFF;
+  font-family: 'karla', sans-serif;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 400;
+  font-style: normal;
+}
+
+button:hover {
+  background-color: #3D3D3D;
+}
+
+input {
+  display: inline-block;
+  padding: 20px 0;
+  padding-left: 20px;
+  border: 1px solid #CECECE;
+  outline: none;
+  border-radius: 3px;
+  color: #292929;
+  font-family: 'karla', sans-serif;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 400;
+  font-style: normal;
+  width: 70%;
+}
+
+#header {
+  height: 100vh;
+  background-image: url("../images/headerbg.png");
+  background-size: 40%;
+  background-position: 90% top;
+  background-repeat: no-repeat;
+  background-color: #F5F5F5;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+.heading {
+  padding: 35px 0px;
+  text-align: center;
+}
+
+nav {
+  padding: 30px 0;
+  width: 50%;
+  border-bottom: 2px solid #EEEEEE;
+}
+
+nav img {
+  width: 60px;
+  max-width: 60px;
+  height: auto;
+}
+
+.hero {
+  width: 50%;
+  padding: 80px 0;
+}
+
+.hero .productLogo {
+  width: 60px;
+  max-width: 60px;
+  height: auto;
+}
+
+#ItemGrid {
+  text-align: center;
+}
+
+.grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+  -ms-grid-rows: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+}
+
+.gridItem {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.gridItem .itemThumbnail {
+  position: relative;
+  width: 100%;
+  height: 278px;
+  overflow: hidden;
+}
+
+.gridItem .itemThumbnail img {
+  top: 0;
+  overflow: auto;
+  display: block;
+  -webkit-transform: translateY(0%);
+          transform: translateY(0%);
+}
+
+.gridItem .itemThumbnail:hover a img {
+  -webkit-transform: translateY(calc(-100% + 278px));
+          transform: translateY(calc(-100% + 278px));
+}
+
+.gridItem .itemDescription {
+  padding: 30px 20px;
+  text-align: left;
+}
+
+.gridItem .itemDescription a {
+  color: #969696;
+  text-decoration: none;
+  font-family: 'karla', sans-serif;
+  font-size: 13px;
+  line-height: 13px;
+  font-weight: 400;
+  font-style: normal;
+  margin-left: 0px;
+  -webkit-transition-duration: .2s;
+          transition-duration: .2s;
+  -webkit-transition-timing-function: ease-in-out;
+          transition-timing-function: ease-in-out;
+}
+
+.gridItem .itemDescription a:hover {
+  color: #FF616C;
+  margin-left: 5px;
+}
+
+#screen {
+  background-color: #fff;
+  padding: 60px 0 0 0;
+}
+
+#screen .container {
+  padding-bottom: 0;
+}
+
+.devices {
+  padding-left: 110px;
+}
+
+#esp {
+  background-color: #FAFAFA;
+  padding: 60px 0;
+}
+
+.espLogos {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  -ms-grid-rows: 1fr;
+      grid-template-rows: 1fr;
+}
+
+.espLogos .esp {
+  width: 60%;
+  height: auto;
+  margin: 0 auto;
+}
+
+#support {
+  padding: 60px 0;
+}
+
+#support .supportContainer {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: 1fr;
+      grid-template-rows: 1fr;
+}
+
+#support .left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+#support .lightParagraphe {
+  color: #949494;
+  margin-bottom: 5px;
+}
+
+#support .right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#support .right img {
+  display: block;
+  width: 450px;
+  height: auto;
+}
+
+#email {
+  background-color: #F6F6F6;
+}
+
+#email .container {
+  padding: 0;
+}
+
+#email .emailContent {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr .6fr;
+      grid-template-columns: 1fr .6fr;
+  -ms-grid-rows: 1fr;
+      grid-template-rows: 1fr;
+}
+
+#email .left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+#email .left div {
+  width: 100%;
+}
+
+#email .right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#email .right img {
+  display: block;
+}
+
+#email .suscribeForm input {
+  margin-right: 20px;
+}
+
+#footer {
+  text-align: center;
+}
+
+#footer .social {
+  text-align: center;
+  padding: 20px 0;
+}
+
+#footer .social span {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+#footer .social span:first-child {
+  margin-left: 0;
+}
+
+#footer .social span:last-child {
+  margin-right: 0;
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  h1 {
+    font-size: 40px;
+    line-height: 50px;
+    margin-bottom: 20px;
+  }
+  .container {
+    padding: 30px 0;
+  }
+  .heading {
+    padding: 20px 0px;
+    text-align: center;
+  }
+  #header {
+    background-image: none;
+  }
+  nav {
+    padding: 20px 0;
+    width: 100%;
+  }
+  .hero {
+    width: 70%;
+    padding: 40px 0;
+  }
+  .hero .productLogo {
+    margin-bottom: 20px;
+  }
+  .grid {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: 1fr 1fr  1fr  1fr;
+        grid-template-rows: 1fr 1fr  1fr  1fr;
+  }
+  #screen {
+    padding: 30px 0 0 0;
+  }
+  .devices {
+    padding-left: 0px;
+  }
+  #esp {
+    padding: 30px 0;
+  }
+  #support {
+    padding: 60px 0;
+  }
+  .left {
+    width: 80%;
+  }
+  #email .left {
+    padding: 30px 0;
+    width: 80%;
+  }
+  #email .right img {
+    display: block;
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+  #email .suscribeForm input {
+    width: 100%;
+    margin-right: 0px;
+    margin-bottom: 15px;
+  }
+  #email .suscribeForm button {
+    width: 100%;
+    margin-right: 0px;
+  }
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  button {
+    display: block;
+    width: 100%;
+  }
+  h1 {
+    font-size: 40px;
+    line-height: 50px;
+    margin-bottom: 20px;
+  }
+  .container {
+    width: 80%;
+    padding: 30px 0;
+  }
+  .heading {
+    padding: 20px 0px;
+    text-align: center;
+  }
+  #header {
+    background-image: none;
+  }
+  nav {
+    padding: 20px 0;
+    width: 100%;
+  }
+  nav img {
+    margin: 0 auto;
+  }
+  .hero {
+    text-align: center;
+    width: 100%;
+  }
+  .hero .productLogo {
+    margin: 0 auto;
+    margin-bottom: 40px;
+  }
+  .grid {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    -ms-grid-rows: auto;
+        grid-template-rows: auto;
+  }
+  #screen {
+    padding: 30px 0 0 0;
+  }
+  .devices {
+    padding-left: 0px;
+  }
+  #esp {
+    padding: 30px 0;
+  }
+  .espLogos {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    -ms-grid-rows: auto;
+        grid-template-rows: auto;
+  }
+  .espLogos .esp {
+    width: 60%;
+    height: auto;
+    margin: 10px auto;
+  }
+  #support {
+    padding: 30px 0;
+  }
+  #support .supportContainer {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    -ms-grid-rows: 1fr;
+        grid-template-rows: 1fr;
+  }
+  #support .left {
+    text-align: center;
+  }
+  #support .right {
+    display: none;
+  }
+  #email .container {
+    padding: 60px 0;
+  }
+  #email .emailContent {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    -ms-grid-rows: 1fr;
+        grid-template-rows: 1fr;
+  }
+  #email .left {
+    width: 100%;
+    text-align: center;
+  }
+  #email .right {
+    display: none;
+  }
+  #email .suscribeForm input {
+    width: 100%;
+    margin-right: 0px;
+    margin-bottom: 15px;
+  }
+  #email .suscribeForm button {
+    width: 100%;
+    margin-right: 0px;
+  }
+}
+
+/* end Smart Phone */
+/*# sourceMappingURL=main.css.map */
