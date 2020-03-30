@@ -103,7 +103,7 @@ p{
     margin-bottom: 40px;
 }
 
-button{
+button {
     display: inline-block;
     background: #000;
     padding: 20px 40px;
@@ -122,7 +122,7 @@ button{
     }
 }
 
-input{
+input[type="email"]{
     display: inline-block;
     padding: 20px 0;
     padding-left: 20px;
@@ -135,8 +135,29 @@ input{
     line-height: 17px;
     font-weight: 400;
     font-style: normal;
-    width: 70%;
+    width: 60%;
 }
+
+input[type="submit"] {
+    display: inline-block;
+    background: #000;
+    padding: 20px 40px;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    cursor: pointer;
+    color: #FFF;
+    font-family: 'karla', sans-serif;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 400;
+    font-style: normal;
+    &:hover {
+        background-color: #3D3D3D;
+    }
+}
+
+
 
 #header{
     height: 100vh;
@@ -317,22 +338,32 @@ padding: 60px 0 ;
     }
 
     .left{
+        padding: 80px 0;
         div{
             width: 100%;
+            display: relative;
         }
         display: flex;
         // justify-content:flex-start;
         align-items:center;
         align-content:center;
     }
+
+
+    
+
+    #mce-responses{
+        padding: 0px;
+        background-color: #F6F6F6;
+        .response{
+           
+        }
+    
+    }
+
     
     .right{
-        display: flex;
-        justify-content:flex-end;
-        align-items:center;
-        img{
-            display: block;
-        }
+        background-image: url('../images/Groupe\ de\ masques\ 2.svg');
     }
 
     .suscribeForm{

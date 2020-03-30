@@ -122,7 +122,7 @@ button:hover {
   background-color: #3D3D3D;
 }
 
-input {
+input[type="email"] {
   display: inline-block;
   padding: 20px 0;
   padding-left: 20px;
@@ -135,7 +135,27 @@ input {
   line-height: 17px;
   font-weight: 400;
   font-style: normal;
-  width: 70%;
+  width: 60%;
+}
+
+input[type="submit"] {
+  display: inline-block;
+  background: #000;
+  padding: 20px 40px;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+  cursor: pointer;
+  color: #FFF;
+  font-family: 'karla', sans-serif;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 400;
+  font-style: normal;
+}
+
+input[type="submit"]:hover {
+  background-color: #3D3D3D;
 }
 
 #header {
@@ -342,6 +362,7 @@ nav img {
 }
 
 #email .left {
+  padding: 80px 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -354,22 +375,16 @@ nav img {
 
 #email .left div {
   width: 100%;
+  display: relative;
+}
+
+#email #mce-responses {
+  padding: 0px;
+  background-color: #F6F6F6;
 }
 
 #email .right {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-#email .right img {
-  display: block;
+  background-image: url("../images/Groupe de masques 2.svg");
 }
 
 #email .suscribeForm input {
