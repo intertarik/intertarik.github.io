@@ -1,196 +1,297 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-        crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
-        crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700|Open+Sans:300,400,700" rel="stylesheet">
-    <link rel="stylesheet" href="css/main.css">
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat:wght&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.3.7/css/swiper.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="main.css">
     <title>Valo - Valentine's Day Sale Notifications</title>
+
+    <style>
+      #menu-toggle:checked + #menu {
+        display: block;
+      }
+    </style>
 </head>
+<body class="antialiased">
 
-<body>
 
-    <div id="hero">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-9">
-                    <div class="content">
-                        <div class="media">
-                            <img class="mr-3" src="images/logo.png" alt="Generic placeholder image">
-                            <div class="media-body">
-                                <h5 class="m-0">Valo </h5>
-                                <p class="m-0">Valentine's Day Sale Notifications</p>
-                                <span>V 1.0.0</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+  <header>
+    <div class="container">
+      <div class="flex justify-between items-center p-6 md:p-0 md:pt-12">
+        <a href="#">
+            <svg xmlns="http://www.w3.org/2000/svg" width="61.4" height="61.4" viewBox="0 0 61.4 61.4">
+                <defs>
+                  <style>
+                    .cls-1 {
+                      fill: #2232ff;
+                    }
+              
+                    .cls-2, .cls-3, .cls-4 {
+                      fill: #fff;
+                    }
+              
+                    .cls-2 {
+                      font-size: 13.76px;
+                    }
+              
+                    .cls-2, .cls-3 {
+                      font-family: AvenirNextLTPro-Bold, Avenir Next LT Pro;
+                      font-weight: 700;
+                    }
+              
+                    .cls-3 {
+                      font-size: 4.32px;
+                    }
+                  </style>
+                </defs>
+                <g id="exotic2" transform="translate(-10.1 -6.5)">
+                  <g id="Groupe_626" data-name="Groupe 626">
+                    <g id="Groupe_624" data-name="Groupe 624">
+                      <rect id="Rectangle_482" data-name="Rectangle 482" class="cls-1" width="61.4" height="61.4" transform="translate(10.1 6.5)"/>
+                    </g>
+                    <text id="_-" data-name="-" class="cls-2" transform="translate(37.826 54.897) rotate(-0.026)"><tspan x="0" y="0">-</tspan></text>
+                    <g id="Groupe_625" data-name="Groupe 625">
+                      <text id="_.co" data-name=".co" class="cls-3" transform="translate(39.642 62.46) rotate(-0.026)"><tspan x="0" y="0">.co</tspan></text>
+                      <path id="Tracé_310" data-name="Tracé 310" class="cls-4" d="M13.9,44V34.3h6.6v2H16.2v1.8h4V40h-4v2h4.5v2Z"/>
+                      <path id="Tracé_311" data-name="Tracé 311" class="cls-4" d="M26.4,44l-1.5-2.1L23.4,44H20.8l2.7-3.6L21,37.1h2.6L25,39l1.3-1.8h2.5l-2.5,3.3L29,44.1Z"/>
+                      <path id="Tracé_312" data-name="Tracé 312" class="cls-4" d="M31.8,44.2a3.653,3.653,0,1,1,0-7.3,3.573,3.573,0,0,1,3.8,3.6A3.653,3.653,0,0,1,31.8,44.2Zm0-5.4a1.6,1.6,0,0,0-1.6,1.7,1.689,1.689,0,0,0,1.6,1.8,1.627,1.627,0,0,0,1.6-1.8A1.6,1.6,0,0,0,31.8,38.8Z"/>
+                      <path id="Tracé_313" data-name="Tracé 313" class="cls-4" d="M19,47.2v7.7H16.6V47.2H13.8v-2h7.9v2Z"/>
+                      <path id="Tracé_314" data-name="Tracé 314" class="cls-4" d="M26.6,54.9V51.2c0-.8-.2-1.4-1-1.4s-1.2.6-1.2,1.5V55H22.1V45.3h2.3v3.8h0a2.155,2.155,0,0,1,2-1.1c1.9,0,2.5,1.4,2.5,2.8V55Z"/>
+                      <path id="Tracé_315" data-name="Tracé 315" class="cls-4" d="M36.5,51.9h-5a1.533,1.533,0,0,0,1.6,1.3,1.806,1.806,0,0,0,1.5-.7l1.6,1A3.614,3.614,0,0,1,33.1,55a3.517,3.517,0,0,1-3.8-3.6A3.572,3.572,0,0,1,33,47.7c2,0,3.4,1.4,3.4,3.7A.749.749,0,0,1,36.5,51.9Zm-2.1-1.4a1.26,1.26,0,0,0-1.3-1.3,1.544,1.544,0,0,0-1.6,1.3Z"/>
+                      <path id="Tracé_316" data-name="Tracé 316" class="cls-4" d="M23.1,62.5V58.8c0-.8-.2-1.4-1-1.4s-1.1.7-1.1,1.5v3.7H18.7V58.7c0-.8-.3-1.3-1-1.3s-1.1.6-1.1,1.5v3.7H14.3V55.7h2.2v.9h0a2.212,2.212,0,0,1,2.1-1.1,2.149,2.149,0,0,1,2.1,1.2,2.609,2.609,0,0,1,2.2-1.2c1.9,0,2.5,1.5,2.5,2.8v4.2Z"/>
+                      <path id="Tracé_317" data-name="Tracé 317" class="cls-4" d="M33.1,59.4h-5a1.533,1.533,0,0,0,1.6,1.3,1.806,1.806,0,0,0,1.5-.7l1.6,1a3.614,3.614,0,0,1-3.1,1.5,3.517,3.517,0,0,1-3.8-3.6,3.572,3.572,0,0,1,3.7-3.7c2,0,3.4,1.4,3.4,3.7A1.087,1.087,0,0,1,33.1,59.4ZM31,58a1.26,1.26,0,0,0-1.3-1.3A1.544,1.544,0,0,0,28.1,58Z"/>
+                      <path id="Tracé_318" data-name="Tracé 318" class="cls-4" d="M37.7,57.4a2.513,2.513,0,0,0-1.4-.6c-.4,0-.9.2-.9.6s.4.5,1.3.7c1,.2,2.2.8,2.2,2.1,0,1.7-1.5,2.3-2.9,2.3a4.426,4.426,0,0,1-3-1.1l1.3-1.3a2.491,2.491,0,0,0,1.7.8c.4,0,.8-.2.8-.6s-.4-.6-1.4-.8c-.9-.2-2-.7-2-2,0-1.6,1.5-2.3,2.8-2.3a4.019,4.019,0,0,1,2.8,1Z"/>
+                    </g>
+                  </g>
+                </g>
+            </svg>
+        </a>
+      </div>
     </div>
+  </header>
+  
 
-
-    <div id="gallery">
-        <div class="container">
-            <div class="row grid">
-                <!-- grid sizer -->
-                <div class="col-md-4 grid-sizer"></div>
-                <!-- Items -->
-
-
-                <div class="col-md-4 grid-item">
-                    <div class="imageHolder">
-                        <img class="img-fluid" src="images/sharethelove.jpg" alt="">
-                        <div class="hover">
-                            <div class="hoverContent">
-                                <h5 class="m-0">Share The Love</h5>
-                                <a target="_blank" rel="noopener noreferrer" href="http://www.stampready.net/dashboard/editor-3-5/index.php?demo=uT7c9xW2gjkJmHawqdL3Ybzsi6KDpZ15">Discover</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 grid-item">
-                    <div class="imageHolder">
-                        <img class="img-fluid" src="images/60OFF.jpg" alt="">
-                        <div class="hover">
-                            <div class="hoverContent">
-                                <h5 class="m-0">60% Off</h5>
-                                <a target="_blank" rel="noopener noreferrer" href="http://www.stampready.net/dashboard/editor-3-5/index.php?demo=8Hznkr7iEpeoqDNIycMShJL64KGdA3Wl">Discover</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 grid-item">
-                    <div class="imageHolder">
-                        <img class="img-fluid" src="images/12OFF.jpg" alt="">
-                        <div class="hover">
-                            <div class="hoverContent">
-                                <h5 class="m-0">12% OFF</h5>
-                                <a target="_blank" rel="noopener noreferrer" href="http://www.stampready.net/dashboard/editor-3-5/index.php?demo=vbW9DV2kwLyiKPznfqCZS8FU4cQo0BJG">Discover</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 grid-item">
-                    <div class="imageHolder">
-                        <img class="img-fluid" src="images/weloveYou.jpg" alt="">
-                        <div class="hover">
-                            <div class="hoverContent">
-                                <h5 class="m-0">We Love You</h5>
-                                <a target="_blank" rel="noopener noreferrer" href="http://www.stampready.net/dashboard/editor-3-5/index.php?demo=fJoQWDEinmUtHvR4xryZBp80L1jS9KP6">Discover</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 grid-item">
-                    <div class="imageHolder">
-                        <img class="img-fluid" src="images/50OFFII.jpg" alt="">
-                        <div class="hover">
-                            <div class="hoverContent">
-                                <h5 class="m-0">50% Off</h5>
-                                <a target="_blank" rel="noopener noreferrer" href="http://www.stampready.net/dashboard/editor-3-5/index.php?demo=AmSR51UPV9En2ZXTQBxpi6a3LGv7bzru">Discover</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 grid-item">
-                    <div class="imageHolder">
-                        <img class="img-fluid" src="images/50OFF.jpg" alt="">
-                        <div class="hover">
-                            <div class="hoverContent">
-                                <h5 class="m-0">50% OFF II</h5>
-                                <a target="_blank" rel="noopener noreferrer" href="http://www.stampready.net/dashboard/editor-3-5/index.php?demo=vwnGHx8NctJ4AKbIydXDRkoEMV6eguzm">Discover</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 grid-item">
-                    <div class="imageHolder">
-                        <img class="img-fluid" src="images/iphone.jpg" alt="">
-                        <div class="hover">
-                            <div class="hoverContent">
-                                <h5 class="m-0">Phone App</h5>
-                                <a target="_blank" rel="noopener noreferrer" href="http://www.stampready.net/dashboard/editor-3-5/index.php?demo=2aCyLPBlnxcpQKX8Ddb4UrfGMVvH3Nkq">Discover</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 grid-item">
-                    <div class="imageHolder">
-                        <img class="img-fluid" src="images/shop.jpg" alt="">
-                        <div class="hover">
-                            <div class="hoverContent">
-                                <h5 class="m-0">Shop</h5>
-                                <a target="_blank" rel="noopener noreferrer" href="http://www.stampready.net/dashboard/editor-3-5/index.php?demo=XvyoJAfl2tnBCV1FP9es7MScdqTjW3Qx">Discover</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+  <section id="header" class="bg-white relative">
+    <div class="container p-6 md:p-0 relative">
+      <div class="left flex flex-wrap items-center md:py-4 md:w-1/2 relative md:py-20">
+        <div>
+          <h1 class="font-mont title text-4xl md:text-6xl font-bold leading-tight mb-0">
+            Valo 
+          </h1>
+          <p class="font-mont text-xl md:text-gray-600 md:text-3xl mb-6">
+            Valentine's Day Sale Notifications
+          </p>
+          <p class="font-lato text-base md:text-xl mb-12">
+            Discover 8 email templates Notifications ready to be shipped with your digital products.
+          </p>
+          <div class="bunns">
+            <button class="font-lato text-white font-bold py-4 px-10 rounded transition duration-200 ease-in-out bg-gray-900 hover:bg-envato">
+             <a href="https://themeforest.net/item/valo-valentines-day-sale-notifications/25428512">Purchase For $12</a>
+            </button>
+          </div>
         </div>
+      </div>
     </div>
+  </section>
 
 
-    <div id="espIntegration">
-        <div class="container">
-            <div class="row">
-                <div class="offset-md-2 col-md-8 espTitle">
-                    <h2>Integrated with the following services:</h2>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="row espLogos">
-                        <div class="col-md-3 espLogo">
-                            <img class="img-fluid" src="images/stampready.png" alt="">
-                        </div>
-                        <div class="col-md-3 espLogo">
-                            <img class="img-fluid" src="images/campaignmonitor.png" alt="">
-                        </div>
-                        <div class="col-md-3 espLogo">
-                            <img class="img-fluid" src="images/mailchimp.png" alt="">
-                        </div>
-                        <div class="col-md-3 espLogo">
-                            <img class="img-fluid" src="images/shopify.png" alt="">
-                        </div>
-                    </div>
 
-                </div>
-            </div>
+  <section id="slider" class="relative block">
+    <div class="container p-6 md:p-0 md:py-24">
+      <div class="sectionTitle mb-16 md:mb-20">
+        <h1 class="font-mont font-bold md:text-5xl text-3xl md:mb-4">
+          Email Templates
+        </h1>
+        <p class="font-lato text-gray-600 text-lg md:w-2/3 mb-4">
+          VALO Email provides 8 unique modules for your marketing and business needs, 100% responsive and compatible with Stampready, Mailchimp, campain Monitor builders, with strong HTML file fitting all Majors builders
+        </p>
+        <div class="hr bg-envato w-20 h-1"></div>
+      </div>
+
+      <div class="grid md:grid-cols-4 gap-4 md:gap-6">
+        <a href="http://www.stampready.net/dashboard/editor/index.php?demo=12959" class="group">
+          <div class="bg-gray-100 shadow-xl bg-no-repeat bg-sq bg-top group-hover:bg-bottom transition-all duration-700 ease-in-out" style="background-image: url('thumbnails/01.jpg'); height: 300px;"></div>
+        </a>
+
+        <a href="http://www.stampready.net/dashboard/editor/index.php?demo=12956" class="group">
+          <div class="bg-gray-100 shadow-xl bg-no-repeat bg-sq bg-top hover:bg-bottom transition-all duration-700 ease-in-out" style="background-image: url('thumbnails/02.jpg'); height: 300px;"></div>
+        </a>
+
+        <a href="http://www.stampready.net/dashboard/editor/index.php?demo=12960" class="group">
+          <div class="bg-gray-100 shadow-xl bg-no-repeat bg-sq bg-top hover:bg-bottom transition-all duration-700 ease-in-out" style="background-image: url('thumbnails/03.jpg'); height: 300px;"></div>
+        </a>
+
+        <a href="http://www.stampready.net/dashboard/editor/index.php?demo=12966" class="group">
+          <div class="bg-gray-100 shadow-xl bg-no-repeat bg-sq bg-top hover:bg-bottom transition-all duration-700 ease-in-out" style="background-image: url('thumbnails/04.jpg'); height: 300px;"></div>
+        </a>
+
+        <a href="http://www.stampready.net/dashboard/editor/index.php?demo=12964" class="group">
+          <div class="bg-gray-100 shadow-xl bg-no-repeat bg-sq bg-top hover:bg-bottom transition-all duration-700 ease-in-out" style="background-image: url('thumbnails/05.jpg'); height: 300px;"></div>
+        </a>
+
+        <a href="http://www.stampready.net/dashboard/editor/index.php?demo=12962" class="group">
+          <div class="bg-gray-100 shadow-xl bg-no-repeat bg-sq bg-top hover:bg-bottom transition-all duration-700 ease-in-out" style="background-image: url('thumbnails/06.jpg'); height: 300px;"></div>
+        </a>
+
+        <a href="http://www.stampready.net/dashboard/editor/index.php?demo=12965" class="group">
+          <div class="bg-gray-100 shadow-xl bg-no-repeat bg-sq bg-top hover:bg-bottom transition-all duration-700 ease-in-out" style="background-image: url('thumbnails/07.jpg'); height: 300px;"></div>
+        </a>
+
+        <a href="http://www.stampready.net/dashboard/editor/index.php?demo=12958" class="group">
+          <div class="bg-gray-100 shadow-xl bg-no-repeat bg-sq bg-top hover:bg-bottom transition-all duration-700 ease-in-out" style="background-image: url('thumbnails/08.jpg'); height: 300px;"></div>
+        </a>
+
+
+
+        <a href="http://www.stampready.net/dashboard/editor/index.php?demo=12935" class="group shadow-xl p-10 flex flex-col justify-end bg-gray-100 hover:bg-gray-300 rounded bg-no-repeat bg-50 bg-p-1 hover:bg-p-2 transition-all duration-1000 ease-in-out" style="height: 300px; background-image: url('img/builder.svg'); ">
+          <div class="mb-4 "><img src="img/plus.png" alt="plus icone"></div>
+          <h3 class="font-mont text-gray-800">More Templates Coming Soon.</h3>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+
+  
+  <section id="features">
+    <div class="flex flex-row justify-between  ">
+      <div class="w-16 md:w-1/4 bg-cover hidden md:block" style="background-image: url('img/Taieri.svg');">
+        &nbsp;
+      </div>
+      <div class="md:w-3/4 md:p-24 p-6">
+        <div class="sectionTitle mb-16 md:mb-20">
+          <h1 class="font-mont font-bold md:text-5xl text-3xl md:mb-4">
+            Features
+          </h1>
+          <p class="font-lato text-gray-600 text-lg md:w-2/3 mb-4">
+            VALO Email is a complete design toolkit that gives you the tools you need to create a unique and professional looking email for you or your client
+          </p>
+          <div class="hr bg-envato w-20 h-1"></div>
         </div>
-    </div>
 
-
-    <div id="footer">
-        <div class="container">
-            <div class="row">
-                <div class="offset-md-2 col-md-8 footerContent">
-                    <p>Done with
-                        <i class="fas fa-heart"></i> by
-                        <a href="https://themeforest.net/user/exoticthemes/">ExoticThemes</a>
-                    </p>
-                    <div class="exoticLogo">
-                        <a href="https://themeforest.net/user/exoticthemes/">
-                            <img src="images/exotic.png" alt="exotic logo">
-                        </a>
-                    </div>
-                </div>
-            </div>
+        <div class="grid md:grid-cols-2 md:gap-4 md:mt-4 mt-8">
+          <div class="md:py-8 py-4">
+            <h3 class="font-mont md:font-xl text-lg font-bold text-gray-800 mb-2">Interactive Components</h3>
+            <p class="font-lato text-base text-gray-600">Create unique immersive emails through our awesome hamburger menu and accordion section. Impress your mobile audience through Notif's unique interactive components.</p>
+          </div>
+          <div class="md:py-8 py-4">
+            <h3 class="font-mont md:font-xl text-lg font-bold text-gray-800 mb-2">Pre-built layouts</h3>
+            <p class="font-lato text-base text-gray-600">HTML version comes with ten unique purpose-built layouts that can be used as is, or as a foundation for your next email campaigns. Included are promotional and transactional layouts.</p>
+          </div>
+          <div class="md:py-8 py-4">
+            <h3 class="font-mont md:font-xl text-lg font-bold text-gray-800 mb-2">3 ESP Integrations</h3>
+            <p class="font-lato text-base text-gray-600">Our Emails comes with tree ESP-integrated versions: MailChimp, StampReady, and Campaign Monitor. Upload directly to your preferred ESP and start creating stunning email campaigns.</p>
+          </div>
+          <div class="md:py-8 py-4">
+            <h3 class="font-mont md:font-xl text-lg font-bold text-gray-800 mb-2">30+ Email Clients Supported</h3>
+            <p class="font-lato text-base text-gray-600">The Tempaltes has been thoroughly tested with Email on Acid, and looks great in all major email clients. From being responsive in Gmail mobile apps to background image support in Outlook, we tested so that your emails render consistently.</p>
+          </div>
         </div>
+      </div>
     </div>
+  </section>
 
 
 
 
+  <section id="ESP" class="bg-gray-100">
+    <div class="container md:p-24 p-16">
+      <h1 class="text-center font-mont font-bold md:text-5xl text-4xl">
+        Supporting the Following services:
+      </h1>
+      <div class="logos flex md:flex-row flex-col md:justify-around justify-center items-center  mx-auto md:pt-16 pt-16">
+        <img src="img/mailchimp.png" alt="mailchimp Logo" class="" style="width:259px;">
+        <img src="img/compainmonitor.png" alt="mailchimp Logo" class="block " style="width:259px;">
+        <img src="img/stampready.png" alt="mailchimp Logo" class="block " style="width:259px;">
+        <!-- <img src="img/shopify2.png" alt="mailchimp Logo" class="block " style="width:200px;">
+        <img src="img/mailster.png" alt="mailchimp Logo" class="block " style="width:259px;"> -->
+      </div>
+    </div>
+  </section>
+
+  
+  <section id="Includes">
+    <div class="container p-6 md:p-0 my-12 md:py-24">
+      <div class="sectionTitle md:mb-20">
+        <h1 class="font-mont font-bold md:text-5xl text-3xl md:mb-4">
+          What is Included in Magic Box.
+        </h1>
+        <p class="font-lato text-gray-600 text-lg md:w-2/3 mb-4">
+          You've never built a email like this before. It can be enjoyed by design professionals and newcomers <br>
+          a like, giving you the power to create spectacular designs with surprising ease and efficiency
+        </p>
+        <div class="hr bg-envato w-20 h-1"></div>
+      </div>
+
+      <div class="grid md:grid-cols-3 md:gap-4 md:mt-4 mt-8">
+        <div class="md:py-8 py-4">
+          <img class="mb-4" src="img/html.png" alt="">
+          <h3 class="font-mont md:font-xl text-lg font-bold text-gray-800 mb-2">HTML File</h3>
+          <p class="font-lato text-base text-gray-500">Mailfy email has now become easy and enjoyable, with external style and inline CSS.</p>
+        </div>
+        <!-- <div class="md:py-8 py-4">
+          <img class="mb-4" src="img/shopify.png" alt="">
+          <h3 class="font-mont md:font-xl text-lg font-bold text-gray-800 mb-2">Shopify Notifications</h3>
+          <p class="font-lato text-base text-gray-500">Shopify email templates that can fit your store designs and help you sell more.</p>
+        </div> -->
+        <div class="md:py-8 py-4">
+          <img class="mb-4" src="img/mc.png" alt="">
+          <h3 class="font-mont md:font-xl text-lg font-bold text-gray-800 mb-2">Mailchimp File</h3>
+          <p class="font-lato text-base text-gray-500">Email is ready and set for you designing Feshto emails in MailChimp editor.</p>
+        </div>
+        <div class="md:py-8 py-4 mt-2">
+          <img class="mb-4" src="img/commonitor.png" alt="">
+          <h3 class="font-mont md:font-xl text-lg font-bold text-gray-800 mb-2">CompainMonitor File</h3>
+          <p class="font-lato text-base text-gray-500">Email is ready and set for you designing Feshto emails in Campaign Monitor editor.</p>
+        </div>
+        <div class="md:py-8 py-4">
+          <img class="mb-4" src="img/stampreaduicon.png" alt="">
+          <h3 class="font-mont md:font-xl text-lg font-bold text-gray-800 mb-2">Stampready File</h3>
+          <p class="font-lato text-base text-gray-500">Email is ready and set for you designing Feshto emails in Stampready editor.</p>
+        <!-- </div>
+        <div class="md:py-8 py-4">
+          <img class="mb-4" src="img/edobexd.png" alt="">
+          <h3 class="font-mont md:font-xl text-lg font-bold text-gray-800 mb-2">Adobe Xd File</h3>
+          <p class="font-lato text-base text-gray-500">Enhance your email production process with Feshto UI kit, Our email come with Adobe XD file.</p>
+        </div> -->
+      </div>
+    </div>
+  </section>
+
+
+
+  <section id="prchase" class="bg-gray-900 bg-center flex items-center">
+    <div class="container py-32 md:py-64 text-center">
+      <h1 class="text-center text-white font-mont title md:text-5xl text-4xl font-bold leading-snug mb-10">
+        Ready to send awesome <br>Emails !
+       </h1>
+      <button href="#" class="text-center mx-auto text-xl bg-white text-white font-lato text-gray-900 font-bold py-3 px-12 rounded hover:bg-gray-300 transition duration-200 ease-in-out" >
+        <a href="https://themeforest.net/item/valo-valentines-day-sale-notifications/25428512">Purchase For $12</a>
+      </button>
+    </div>
+  </section>
+  <section id="Footer" class="bg-gray-900 flex items-center">
+    <div class="container border-t border-gray-400 py-8 text-center">
+      <p class="text-center  font-lato text-base mb-10 text-gray-400">
+        © Copyright 2020 - All rights reserved. <br>
+        <a href="mailto:tarikachat@gmail.com">support@exithemes.co</a>
+      </p>
+    </div>
+  </section>
+
+
+
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lax.js" ></script>
+  <script type="text/javascript" src="script.js"></script>
+
+    
     <!-- Optional JavaScript -->
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155532958-1"></script>
@@ -203,15 +304,7 @@
     </script>
 
 
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-        crossorigin="anonymous"></script>
-    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
-    <script src="js/main.js"></script>
+     
+    
 </body>
-
 </html>

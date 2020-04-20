@@ -1,0 +1,157 @@
+
+.hero_images img:nth-child(1) {
+    transform:translate(49%,-153%) translate3d(0,0,0) scale(0.25);
+    z-index:500;
+    opacity: 1;
+}
+.hero_images img:nth-child(2) {
+    transform:translate(76%,-157%) translate3d(0,0,0) scale(0.25);
+    z-index:500;
+}
+.hero_images img:nth-child(3){
+    transform:translate(49%,-131%) translate3d(0,0,0) scale(0.25);
+    z-index:500;
+}
+.hero_images img:nth-child(4){
+    transform:translate(76%,-125%) translate3d(0,0,0) scale(0.25);
+    z-index:500;
+}
+.hero_images img:nth-child(5) {
+    transform:translate(49%,-128%) translate3d(0,0,0) scale(0.25);
+    z-index:500;
+}
+.hero_images img:nth-child(6) {
+    transform:translate(103%,-152%) translate3d(0,0,0) scale(0.25);
+    z-index:500;
+}
+.hero_images img:nth-child(7) {
+    transform:translate(103%,-117%) translate3d(0,0,0) scale(0.25);
+    z-index:500;
+}
+.hero_images img:nth-child(8) {
+    transform:translate(76%,-103%) translate3d(0,0,0) scale(0.25);
+    z-index:500;
+}
+.hero_images img:nth-child(9) {
+    transform:translate(103%,-104%) translate3d(0,0,0) scale(0.25);
+    z-index:500;
+}
+.hero_images img:nth-child(10) {
+    transform:translate(49%,-102%) translate3d(0,0,0) scale(0.25);
+    z-index:500;
+}
+
+/*----------------------------------------------*/
+.hero_images.showModule img:nth-child(1) {
+    transform:translate(49%,-53%) translate3d(0,0,0) scale(0.25);
+    z-index:500;
+    opacity: 1;
+    -webkit-transition: all .5s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+    -moz-transition: all .5s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+    -ms-transition: all .5s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+    -o-transition: all .5s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+    transition: all .5s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+    -webkit-transition-delay: .5s;
+    transition-delay: .2s;
+}
+.hero_images.showModule img:nth-child(2) {
+    transform:translate(76%,-57%) translate3d(0,0,0) scale(0.25);
+    z-index:500;
+    -webkit-transition: all .5s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+    -moz-transition: all .5s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+    -ms-transition: all .5s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+    -o-transition: all .5s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+    transition: all .5s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+    -webkit-transition-delay: .5s;
+    transition-delay: 0.25s;
+}
+.hero_images.showModule img:nth-child(3){
+    transform:translate(49%,-31%) translate3d(0,0,0) scale(0.25);
+    z-index:500;
+    -webkit-transition: all .5s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+    -moz-transition: all .5s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+    -ms-transition: all .5s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+    -o-transition: all .5s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+    transition: all .5s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+    -webkit-transition-delay: .5s;
+    transition-delay: 0.3s;
+}
+.hero_images.showModule img:nth-child(4){
+    transform:translate(76%,-25%) translate3d(0,0,0) scale(0.25);
+    z-index:500;
+    -webkit-transition: all .5s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+    -moz-transition: all .5s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+    -ms-transition: all .5s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+    -o-transition: all .5s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+    transition: all .5s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+    -webkit-transition-delay: .5s;
+    transition-delay: 0.4s;
+}
+.hero_images.showModule img:nth-child(5) {
+    transform:translate(49%,28%) translate3d(0,0,0) scale(0.25);
+    z-index:500;
+    
+    -webkit-transition: all .5s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+    -moz-transition: all .5s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+    -ms-transition: all .5s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+    -o-transition: all .5s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+    transition: all .5s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+    -webkit-transition-delay: .5s;
+    transition-delay: 0.45s;
+}
+.hero_images.showModule img:nth-child(6) {
+    transform:translate(103%,-52%) translate3d(0,0,0) scale(0.25);
+    z-index:500;
+    
+    -webkit-transition: all .5s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+    -moz-transition: all .5s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+    -ms-transition: all .5s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+    -o-transition: all .5s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+    transition: all .5s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+    -webkit-transition-delay: .5s;
+    transition-delay: 0.5s;
+}
+.hero_images.showModule img:nth-child(7) {
+    transform:translate(103%,-17%) translate3d(0,0,0) scale(0.25);
+    z-index:500;
+    -webkit-transition: all .5s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+    -moz-transition: all .5s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+    -ms-transition: all .5s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+    -o-transition: all .5s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+    transition: all .5s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+    -webkit-transition-delay: .5s;
+    transition-delay: 0.55s;
+}
+.hero_images.showModule img:nth-child(8) {
+    transform:translate(76%,3%) translate3d(0,0,0) scale(0.25);
+    z-index:500;
+    -webkit-transition: all .5s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+    -moz-transition: all .5s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+    -ms-transition: all .5s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+    -o-transition: all .5s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+    transition: all .5s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+    -webkit-transition-delay: .5s;
+    transition-delay: 0.6s;
+}
+.hero_images.showModule img:nth-child(9) {
+    transform:translate(103%,-4%) translate3d(0,0,0) scale(0.25);
+    z-index:500;
+    -webkit-transition: all .5s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+    -moz-transition: all .5s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+    -ms-transition: all .5s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+    -o-transition: all .5s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+    transition: all .5s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+    -webkit-transition-delay: .5s;
+    transition-delay: 0.65s;
+}
+.hero_images.showModule img:nth-child(10) {
+    transform:translate(49%,-2%) translate3d(0,0,0) scale(0.25);
+    z-index:500;
+    -webkit-transition: all .5s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+    -moz-transition: all .5s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+    -ms-transition: all .5s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+    -o-transition: all .5s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+    transition: all .5s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+    -webkit-transition-delay: .5s;
+    transition-delay: 0.7s;
+}
